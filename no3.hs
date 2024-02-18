@@ -1,3 +1,4 @@
+-- https://github.com/karolyangqian/tugas1_haskell
 -- APAKAH DATE VALID?                     isDateValid(d, m, y)
 -- DEFINISI DAN SPESIFIKASI
 isDateValid :: Int -> Int -> Int -> Bool
@@ -6,7 +7,7 @@ isDateValid :: Int -> Int -> Int -> Bool
     tergantung bulan dan apakah tahun kabisat atau bukan, elemen bulan (m)
     bernilai antara 1 dan 12, dan elemen tahun (y) bernilai antara 0 dan 99.
     Nilai y mewakili tahun 1900 s.d. 1999 -}
-    
+
 isKabisat :: Int -> Bool
 {-  isKabisat(y) mengembalikan true jika tahun 1900 + y
     habis dibagi 4 dan false jika tidak habis dibagi 4. -}

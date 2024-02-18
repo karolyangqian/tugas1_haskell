@@ -1,3 +1,4 @@
+-- https://github.com/karolyangqian/tugas1_haskell
 -- APAKAH JAM VALID?                    isJamValid(j, m, d)
 -- DEFINISI DAN SPESIFIKASI
 isJamValid :: Int -> Int -> Int -> Bool

@@ -1,7 +1,8 @@
+-- https://github.com/karolyangqian/tugas1_haskell
 -- JUMLAH DETIK                    jumlahDetik(j, m, d)
 -- DEFINISI DAN SPESIFIKASI
 jumlahDetik :: Int -> Int -> Int -> Int
-{-  jumlahDetik menghitung jumlah detik dari jam valid yang diberikan dalam
+{-  jumlahDetik j m d menghitung jumlah detik dari jam valid yang diberikan dalam
     jam (j), menit (m), dan detik (d). -}
 
 -- REALISASI

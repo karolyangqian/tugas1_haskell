@@ -1,3 +1,4 @@
+-- https://github.com/karolyangqian/tugas1_haskell
 -- KONVERSI KE DOLLAR                toDollar q d n p
 -- DEFINISI DAN SPESIFIKASI
 toDollar :: Int -> Int -> Int -> Int -> (Int, Int)

@@ -1,3 +1,4 @@
+-- https://github.com/karolyangqian/tugas1_haskell
 -- MENCARI NILAI TENGAH                   nilaiTengah(a, b, c)
 -- DEFINISI DAN SPESIFIKASI
 nilaiTengah :: Int -> Int -> Int -> Int
