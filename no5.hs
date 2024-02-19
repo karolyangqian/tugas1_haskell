@@ -10,3 +10,4 @@ toSen :: Int -> Int -> Int -> Int -> Int
 toSen q d n p = q * 25 + d * 10 + n * 5 + p
 
 toDollar q d n p = ((toSen q d n p - (toSen q d n p `mod` 100)) `div` 100, toSen q d n p `mod` 100)
+

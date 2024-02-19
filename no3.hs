@@ -20,8 +20,10 @@ isDateValid d m y =
   &&
     (if isKabisat y && m == 2 then
          d >= 1 && d <= 29
+    else if not (isKabisat y) && m == 2 then
+      d >= 1 && d <= 28
      else
          (m >= 1 && m <= 12)
   &&
-    ((m `mod` 2 == 0 && d >= 1 && d <= 30)
-  || (m `mod` 2 /= 0 && d >= 1 && d <= 31)))
+    ((mod m 2 == 0 && d >= 1 && d <= 30)
+  || (mod m 2 /= 0 && d >= 1 && d <= 31)))
